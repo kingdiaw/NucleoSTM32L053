@@ -1,0 +1,6 @@
+--cpu Cortex-M0+
+".\objects\sys_clk.o"
+--strict --scatter ".\Objects\ASM_Project.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\ASM_Project.map" -o .\Objects\ASM_Project.axf
